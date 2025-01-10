@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*font-family: "Work Sans", serif;*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#hero {
+
+  background: linear-gradient(
+    180deg,
+    rgb(16, 16, 16) -19.5%,
+    rgba(16, 16, 16, 0) 100%
+  ),
+  url("../images/Banner\ Image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero .hero-content {
+  width: 685px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#hero.right-align {
+  margin-right: 500px;
+}
+
+#hero .hero-content .subtitle {
+  opacity: 0.8;
+  color: beige;
+  font-family: Work sans;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+}
+#hero .hero-content .title{
+  color: beige;
+  font-family: Work sans;
+  font-size: 80px;
+  font-weight: 700px;
+  line-height: 55px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#hero .hero-content .title{
+  color: beige;
+  font-family: Work sans;
+  font-size: 80px;
+  font-weight: 700px;
+  line-height: 55px;
+  letter-spacing: 0%;
+  text-align: center;
+}
